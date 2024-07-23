@@ -20,6 +20,7 @@ Jammming is a React-based web application that allows users to search the Spotif
 ## 📋 Prerequisites
 
 Before you begin, ensure you have the following installed:
+
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
 
@@ -30,7 +31,11 @@ You'll also need a Spotify account to use the app's full features.
 1. Clone the repository:
 2. Navigate to the project directory:
 3. Install dependencies:
-4. Start the development server:
+4. Set up environment variables:
+  . Create a new file named `.env.local` in the project root
+  . Open `.env.example` and copy its contents to `.env.local`
+  . In `.env.local`, replace the placeholder with your actual Spotify Client ID
+5. Start the development server:
 
 ## 🎮 How to Use
 
@@ -57,10 +62,6 @@ Contributions are what make the open source community such an amazing place to l
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 📝 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📬 Contact
 
