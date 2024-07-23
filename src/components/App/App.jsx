@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Spotify from "./Spotify.js";
+import Spotify from "../../Spotify.js";
+import "./App.css"
 
 function App() {
   const [isAuthorized, setIsAuthorized] = useState(false);
