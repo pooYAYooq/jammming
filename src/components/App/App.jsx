@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Spotify from "../../Spotify.js";
-import "./App.css"
+import SearchBar from "../SearchBar/SearchBar.jsx";
+import "./App.css";
 
 function App() {
   const [isAuthorized, setIsAuthorized] = useState(false);
@@ -18,9 +19,9 @@ function App() {
 
   return (
     <div className="App">
-      {/* Your app content */}
       <h1>Jammming</h1>
       <p>You're now connected to Spotify!</p>
+      <SearchBar />
     </div>
   );
 }
