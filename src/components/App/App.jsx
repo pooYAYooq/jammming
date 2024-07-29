@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Spotify from "../../Spotify.js";
 import SearchBar from "../SearchBar/SearchBar.jsx";
 import SearchResults from "../SearchResults/SearchResults.jsx";
+import Playlist from "../Playlist/Playlist.jsx";
 import "./App.css";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <p>You're now connected to Spotify!</p>
       <SearchBar />
       <SearchResults />
+      <Playlist/>
 
     </div>
   );
