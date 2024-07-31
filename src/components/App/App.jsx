@@ -3,6 +3,7 @@ import Spotify from "../../Spotify.js";
 import SearchBar from "../SearchBar/SearchBar.jsx";
 import SearchResults from "../SearchResults/SearchResults.jsx";
 import Playlist from "../Playlist/Playlist.jsx";
+import TrackList from "../TrackList/TrackList.jsx";
 import "./App.css";
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
       <SearchBar />
       <SearchResults />
       <Playlist/>
+      <TrackList/>
+
 
     </div>
   );

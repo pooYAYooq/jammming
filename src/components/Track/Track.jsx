@@ -2,12 +2,12 @@ import "./Track.css";
 
 function Track() {
   return (
-    <div className="Track">
-      <div className="Track-information">
+    <div className="track">
+      <div className="track-information">
         <h3>Track Name</h3>
         <p>Artist | Album</p>
       </div>
-      <button className="Track-action">+</button>
+      <button className="track-action"> + </button>
     </div>
   );
 }
